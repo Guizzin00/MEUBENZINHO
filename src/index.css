@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;500;600;700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -112,8 +113,6 @@ All colors MUST be HSL.
     --shadow-romantic: 0 0 60px hsl(346 100% 70% / 0.3);
   }
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;500;600;700&display=swap');
 
 @layer base {
   * {
