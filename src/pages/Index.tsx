@@ -52,10 +52,10 @@ const Index = () => {
           Feito com todo o amor do mundo 💘
         </p>
         <p className="text-lg text-muted-foreground">
-          Por alguém que te ama muito ❤️
+          Por alguém que te ama muito e bota muito nisso viu ❤️
         </p>
         <p className="text-sm text-muted-foreground mt-4">
-          {new Date().getFullYear()} - O ano em que tudo começou
+          {new Date().getFullYear()} - O ano em que tudo começou 'TE AMO MEU BEM'
         </p>
       </footer>
     </div>

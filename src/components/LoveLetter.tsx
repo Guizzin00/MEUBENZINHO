@@ -3,17 +3,21 @@ import { useEffect, useState } from "react";
 
 export const LoveLetter = () => {
   const [visibleText, setVisibleText] = useState("");
-  const fullText = `Meu amor,
+  const fullText = `Meu benzinho,
 
-Escrever sobre o que sinto por você é tentar colocar o infinito em palavras. Desde que você entrou na minha vida, tudo ganhou mais cor, mais sentido, mais amor.
+Olha bb não sou muito bom escrevendo cartas sempre me embaralho todo, mas essa eu estou muito confiante para escrever, nunca estive tao certo de algo na minha vida.
 
-Cada momento ao seu lado é um presente que guardo no coração. Seu sorriso ilumina meus dias mais difíceis, sua voz é a melodia mais bonita que já ouvi, e seu amor é o lugar mais seguro que eu conheço.
+Cada momento ao seu lado é um presente que guardo no coração. Seu sorriso ilumina meus dias mais difíceis, você me faz sentir amado, e seu amor é o lugar mais seguro que eu conheço.
 
-Eu não sei o que o futuro nos reserva, mas sei que quero você ao meu lado para descobrir. Quero compartilhar cada alegria, cada desafio, cada sonho.
+Eu não sei o que o futuro nos reserva, mas sei que quero você ao meu lado para descobrir. Quero compartilhar cada alegria, cada desafio, cada sonho, cada conquista tudo, quero que você esteja comigo em todos os momentos sejam de dor ou alegria vamos passar esses momentos juntos.
 
-Você é meu amor, minha melhor amiga, minha pessoa favorita no mundo inteiro.
+Você é meu amor, minha melhor amiga, minha pessoa favorita no mundo inteiro, a pessoa em que eu mais confio nesse mundo, você em tao pouco tempo se tornou a coisinha mais importante da minha vida inteira.
 
-Com todo meu amor,
+Não consigo nem imaginar ficar um dia sem você, você e a mulher da minha vida, quero te fazer feliz sempre, te amar sempre, me preocupar sempre, fazer questão sempre.
+
+TE AMO MEU AMOR, LINDA
+
+Com todo meu amor do mundo,
 Para sempre seu ❤️`;
 
   useEffect(() => {
@@ -46,7 +50,7 @@ Para sempre seu ❤️`;
           
           <div className="relative z-10">
             <h2 className="text-4xl md:text-5xl font-romantic text-center mb-8 text-gradient">
-              Uma Carta de Amor
+              . Cartinha Para o Meu Amorzinho .
             </h2>
             
             <div className="space-y-4 text-foreground leading-relaxed whitespace-pre-wrap font-light text-lg">

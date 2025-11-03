@@ -10,7 +10,7 @@ export const ProposalSection = () => {
   const [answered, setAnswered] = useState(false);
   const [windowSize, setWindowSize] = useState({ width: 0, height: 0 });
   const [typewriterText, setTypewriterText] = useState("");
-  const fullText = "Desde o dia em que te conheci, tudo ficou mais bonito. E agora eu quero te perguntar...";
+  const fullText = "Desde o dia em que te conheci, tudo ficou melhor, mais alegre, e a vida faz mais sentido. E agora eu quero te perguntar...";
 
   useEffect(() => {
     setWindowSize({ width: window.innerWidth, height: window.innerHeight });

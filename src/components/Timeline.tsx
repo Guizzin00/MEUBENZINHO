@@ -3,22 +3,22 @@ import { Calendar, Heart, Star, Sparkles } from "lucide-react";
 
 const timelineEvents = [
   {
+    icon: Sparkles,
+    date: "JULHO DE 2025",
+    title: "Mês em que eu me apaixonei",
+    description: "Me apaixonei e deixei acontecer, melhor escolha da minha vida ! 💖 ",
+  },
+  {
     icon: Star,
-    date: "Janeiro 2024",
+    date: "05 DE AGOSTO DE 2025",
     title: "Primeiro Encontro",
     description: "O dia em que tudo começou ✨",
   },
   {
     icon: Heart,
-    date: "Fevereiro 2024",
+    date: "AGOSTO DE 2025",
     title: "Primeira Vez que Disse 'Te Amo'",
     description: "As palavras mais verdadeiras do meu coração 💕",
-  },
-  {
-    icon: Sparkles,
-    date: "Março 2024",
-    title: "Nossa Primeira Viagem",
-    description: "Aventuras inesquecíveis juntos 🌍",
   },
   {
     icon: Calendar,

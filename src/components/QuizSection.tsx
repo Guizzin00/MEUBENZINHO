@@ -5,18 +5,18 @@ import { Heart, Check, X } from "lucide-react";
 
 const quizQuestions = [
   {
-    question: "Qual foi a primeira coisa que você notou em mim?",
-    options: ["Seu sorriso", "Seus olhos", "Sua voz", "Sua personalidade"],
+    question: "Qual foi a primeira coisa que notei em você?",
+    options: ["Seu sorriso", "Seus olhos", "Seu cabelo", "Sua personalidade"],
     correct: 0,
   },
   {
     question: "Qual é minha comida favorita?",
-    options: ["Pizza", "Sushi", "Lasanha", "Hambúrguer"],
-    correct: 1,
+    options: ["strogonoff", "Sushi", "Lasanha", "Hambúrguer"],
+    correct: 0,
   },
   {
     question: "O que eu mais amo fazer com você?",
-    options: ["Assistir filmes", "Conversar até tarde", "Viajar", "Todas as anteriores"],
+    options: ["Assistir filmes", "Conversar até tarde", "Ficar com você", "Todas as anteriores"],
     correct: 3,
   },
 ];

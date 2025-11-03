@@ -28,7 +28,7 @@ export const HeroSection = ({ onContinue }: HeroSectionProps) => {
           <Heart className="w-20 h-20 mx-auto mb-8 text-primary fill-primary animate-pulse-heart" />
           
           <h1 className="text-5xl md:text-7xl font-bold mb-6 text-gradient">
-            Oi, amor...
+            Oi, meu benzinho...
           </h1>
           
           <p className="text-2xl md:text-4xl font-romantic mb-4 text-foreground">

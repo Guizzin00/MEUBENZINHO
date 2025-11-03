@@ -1,13 +1,14 @@
 import { useState, useRef, useEffect } from "react";
 import { Music, Volume2, VolumeX } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import musica from "@/assets/RÜFÜS DU SOL - In the Moment (Adriatique Remix) [Official Audio] - RÜFÜS DU SOL.mp3";
 
 export const MusicPlayer = () => {
   const [isPlaying, setIsPlaying] = useState(false);
   const audioRef = useRef<HTMLAudioElement>(null);
 
   // Using a romantic royalty-free music URL
-  const musicUrl = "https://cdn.pixabay.com/audio/2022/05/27/audio_1808fbf07a.mp3";
+  const musicUrl = musica;
 
   useEffect(() => {
     if (audioRef.current) {

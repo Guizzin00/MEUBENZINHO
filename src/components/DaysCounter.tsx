@@ -5,8 +5,7 @@ import { useEffect, useState } from "react";
 export const DaysCounter = () => {
   const [days, setDays] = useState(0);
   
-  // Data do primeiro encontro - PERSONALIZE AQUI!
-  const startDate = new Date("2024-01-01");
+  const startDate = new Date("2025-07-04");
 
   useEffect(() => {
     const calculateDays = () => {

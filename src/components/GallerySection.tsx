@@ -2,23 +2,28 @@ import { motion } from "framer-motion";
 import { useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { url } from "inspector";
+import fotolinda from "@/assets/fotolinda.jpeg";
+import fotolinda2 from "@/assets/fotolinda2.jpeg";
+import fotolinda3 from "@/assets/fotolinda3.jpeg";
+import videofofo from "@/assets/1103.gif";
 
 const photos = [
   {
-    url: "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?w=800",
-    caption: "Nosso primeiro encontro 💕",
+    url: fotolinda2,
+    caption: "Meus dias são mais alegres com você ! 💕",
   },
   {
-    url: "https://images.unsplash.com/photo-1518199266791-5375a83190b7?w=800",
+    url: fotolinda,
     caption: "O sorriso que mudou meu mundo 😍",
   },
   {
-    url: "https://images.unsplash.com/photo-1522673607200-164d1b6ce486?w=800",
-    caption: "Cada momento ao seu lado é especial ✨",
+    url: fotolinda3,
+    caption: "Roube a princesa mais linda da Disney ✨",
   },
   {
-    url: "https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?w=800",
-    caption: "Você é minha pessoa favorita 🌟",
+    url: videofofo,
+    caption: "Nunca vai deixar de ser minha favorita TE AMO ! 🌟",
   },
 ];
 
