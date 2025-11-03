@@ -2,29 +2,38 @@ name: Deploy Vite React to GitHub Pages
 
 on:
   push:
-    branches:
-      - main  # só roda quando há push na branch main
+    branches: [main]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout código
+      - name: Checkout 🛎️
         uses: actions/checkout@v4
 
-      - name: Configurar Node.js
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version: 20
 
-      - name: Instalar dependências
-        run: npm ci
+      - name: Install dependencies
+        run: npm install
 
-      - name: Build do projeto
+      - name: Build Vite project
         run: npm run build
 
-      - name: Publicar no GitHub Pages
+      - name: Setup Git identity 👤
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Deploy to GitHub Pages 🚀
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
